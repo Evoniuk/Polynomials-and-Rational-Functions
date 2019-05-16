@@ -281,13 +281,3 @@ class RationalFunction:
 
     def is_zero(self, x):
         return self.evaluate(x) == 0
-
-
-# poly1 = Polynomial([1, 7, 12])
-# poly2 = Polynomial([1, 3])
-# ratio = RationalFunction(poly1, poly2)
-
-# print(poly1)
-# print(poly2)
-# print(ratio)
-# print(ratio.simplify())
